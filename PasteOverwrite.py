@@ -1,6 +1,6 @@
 import sublime, sublime_plugin  
   
-class PasteinsertCommand(sublime_plugin.TextCommand):
+class PasteoverwriteCommand(sublime_plugin.TextCommand):
     
     def run(self, edit):
         the_sels = self.view.sel()
